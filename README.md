@@ -11,7 +11,7 @@ Adapted from UCB EECS150 (Go Bears!)
 
 
 ## Table of contents
-- [ASIC Lab 2: Simulation](#asic-lab-2-simulation)
+- [ASIC Lab 3: Simulation](#asic-lab-2-simulation)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
   - [Setup](#setup)
@@ -64,7 +64,7 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
 2. Clone your Github Classroom repo into your home directory
    ```
    cd 
-   git clone ssh://git@ssh.github.com:443/dvb-ece-cpp/vlsi-f24-lab-3-(your github id).git
+   git clone https://github.com/dvb-ece-cpp/ece4203_lab3.git
    ```
 
 3. Execute the CAD tool installation script by typing the following, exactly as shown: 
@@ -531,7 +531,7 @@ Create a Verilog module to represent the schematic and complete the timing diagr
 </li>
 
 <li>
-Create a Verilog module to represent the schematic. It should use a single flip-flop and a single logic gate. 
+Create a Verilog module to represent the schematic, which you will need to figure out from the timing diagram. It should use a single flip-flop and a single logic gate. 
 
 - Inputs: A, clk
 - Outputs: X, Y
@@ -545,7 +545,7 @@ Create a Verilog module to represent the schematic. It should use a single flip-
 
 ### Question 2: Understand Testbenches
 
-Testbenches useful to primarily for unit tests. Test your understanding of some basic of writing a testbench using `fir_tb.v`. Feel free to search for answers online.
+Testbenches are useful primarily for unit tests. Test your understanding of some basic of writing a testbench using `fir_tb.v`. Feel free to search for answers online.
 
 <ol type="a">
 <li> How does the <code>initial</code> block work?</li>
