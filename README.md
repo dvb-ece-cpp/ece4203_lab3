@@ -67,6 +67,7 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
    git clone https://github.com/dvb-ece-cpp/ece4203_lab3.git
    ```
 3. Install the CAD tools
+   
     A. UPDATED - Reinstall miniconda (the installation from Lab 2 might have been broken):
    ```
    /data02/ECE4203/etc/cleanup_conda.sh
@@ -79,7 +80,7 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
    ``` 
    The script will take a while to download the tools and install them.   You will only need to do this once! (hopefully)
    
-4. Now, activate the new Conda environment by typing:
+5. Now, activate the new Conda environment by typing:
    ``` 
    conda activate ece4203
    ```
@@ -90,7 +91,7 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
 
    If you don't have (ece4203) at the start of the command line, none of the tools will work.
    
-5. Verify Hammer was installed by running the following:
+6. Verify Hammer was installed by running the following:
      ``` 
     hammer-vlsi -h 
    ```
