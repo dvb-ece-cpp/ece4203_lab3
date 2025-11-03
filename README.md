@@ -66,17 +66,19 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
    cd 
    git clone https://github.com/dvb-ece-cpp/ece4203_lab3.git
    ```
-3a. UPDATED - Reinstall miniconda (the installation from Lab 2 might have been broken):
+3. Install the CAD tools
+    A. UPDATED - Reinstall miniconda (the installation from Lab 2 might have been broken):
    ```
    /data02/ECE4203/etc/cleanup_conda.sh
    ``` 
-3b. Logout of the HPC, and log back in again.
+    B. Logout of the HPC, and log back in again.
 
-3c. Execute the CAD tool installation script by typing the following, exactly as shown: 
+    C. Execute the CAD tool installation script by typing the following, exactly as shown: 
    ```
    /data02/ECE4203/etc/ece4203_tools.sh
    ``` 
    The script will take a while to download the tools and install them.   You will only need to do this once! (hopefully)
+   
 4. Now, activate the new Conda environment by typing:
    ``` 
    conda activate ece4203
