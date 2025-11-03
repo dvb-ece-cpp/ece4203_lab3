@@ -66,8 +66,13 @@ Prior to running any commands you need to install the CAD tools and the Hammer c
    cd 
    git clone https://github.com/dvb-ece-cpp/ece4203_lab3.git
    ```
+3a. UPDATED - Reinstall miniconda (the installation from Lab 2 might have been broken):
+   ```
+   /data02/ECE4203/etc/cleanup_conda.sh
+   ``` 
+3b. Logout of the HPC, and log back in again.
 
-3. Execute the CAD tool installation script by typing the following, exactly as shown: 
+3c. Execute the CAD tool installation script by typing the following, exactly as shown: 
    ```
    /data02/ECE4203/etc/ece4203_tools.sh
    ``` 
@@ -307,9 +312,10 @@ After completing the simulation, the simulator dumps the waveforms to a file: `b
 
 ```shell
 cd build/sim-rundir
-gtkwave --dump=verilog.dump &
+gtkwave -n=. &
 ```
 
+Select the verilog.dump file and open it.
 Let's create a waveform. 
 
 1. Select the `fir_tb` in the *Hierarchy* pane
